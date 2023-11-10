@@ -12,3 +12,14 @@ for i in my_string:
         count += 1
 
 print(count)
+apiVersion: serving.knative.dev/v1
+kind: Service
+...
+spec:
+  template:
+    spec:
+      containers:
+      - image: IMAGE_URL
+        ports:
+        - name: h2c
+          containerPort: 8080
