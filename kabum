@@ -9,3 +9,4 @@ print('var_1:', var_1, 'var_2:', var_2)
 # Вывод:
 var_1: 15 var_2: 67
 var_1: 67 var_2: 15
+bum bum
